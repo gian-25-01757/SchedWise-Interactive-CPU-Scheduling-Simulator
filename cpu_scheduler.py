@@ -172,7 +172,7 @@ class CPUSchedulerApp:
     def __init__(self, root):
 
         self.root = root
-        self.root.title("CPU Scheduling Simulator")
+        self.root.title("SchedWise: Interactive CPU Scheduling Simulator")
         self.root.geometry("1150x850")
         self.root.minsize(900, 650)
         self.root.configure(bg=BG)
